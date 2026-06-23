@@ -18,7 +18,7 @@ A universal command-line tool for semantic search over document vaults using [tx
 ### One-Line Install
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/wuhup/vault-search/main/scripts/setup.sh | bash
+curl -sSL https://raw.githubusercontent.com/cjonesde/vault-search/main/scripts/setup.sh | bash
 ```
 
 The setup wizard will:
@@ -32,7 +32,7 @@ The setup wizard will:
 ### From Cloned Repo
 
 ```bash
-git clone https://github.com/wuhup/vault-search
+git clone https://github.com/cjonesde/vault-search
 cd vault-search
 ./scripts/setup.sh
 ```
@@ -42,7 +42,7 @@ cd vault-search
 Run setup again to update:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/wuhup/vault-search/main/scripts/setup.sh | bash
+curl -sSL https://raw.githubusercontent.com/cjonesde/vault-search/main/scripts/setup.sh | bash
 ```
 
 If an existing installation is detected, you'll be offered:
@@ -52,7 +52,7 @@ If an existing installation is detected, you'll be offered:
 ### Uninstall
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/wuhup/vault-search/main/scripts/setup.sh | bash -s -- --uninstall
+curl -sSL https://raw.githubusercontent.com/cjonesde/vault-search/main/scripts/setup.sh | bash -s -- --uninstall
 # or from cloned repo:
 ./scripts/setup.sh --uninstall
 ```

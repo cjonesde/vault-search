@@ -100,7 +100,7 @@ fi
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" 2>/dev/null && pwd)" || SCRIPT_DIR=""
 LOCAL_VS_PY="${SCRIPT_DIR}/vs.py"
 LOCAL_REPO="${SCRIPT_DIR}/.."
-REPO_URL="https://raw.githubusercontent.com/wuhup/vault-search/main"
+REPO_URL="https://raw.githubusercontent.com/cjonesde/vault-search/main"
 
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
